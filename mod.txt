@@ -1,0 +1,14 @@
+{
+  	"name" : "Balanced Ammo Pickup (WIP)",
+    "description" : "Changes ammo pickup rates for high damage ARs and SMGs to match the damage-per-shot to pickup-per-box ratio of the low damage guns (g36, MP5, etc.).",
+    "author" : "citizen"
+	"contact" : "",
+	"version" : "0.1",
+    "blt_version" : 2,
+    "image" : "icon.png",
+	"hooks" : [
+        { "hook_id" : "lib/tweak_data/weapontweakdata",
+            "script_path" : "BalancedAmmoPickup.lua"
+        }
+	]
+}
